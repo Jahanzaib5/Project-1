@@ -39,15 +39,16 @@
 
 #about3 {
     float: left;
-    width: 47%;
+    width: 40%;
     padding-top: 13%;
     padding-bottom: 8%;
 }
 
 #about3-right {
-    float: right;
-    width: 49%;
+    float: left;
+    width: 40%;
     padding-top: 14%;
+    margin-left: 10%;
 }
 
 #about3 img {
