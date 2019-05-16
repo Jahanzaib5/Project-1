@@ -111,4 +111,6 @@
 
 #contacted img {
     margin-left: 0%;
+    float: left;
+    display: block;
 }
