@@ -33,7 +33,7 @@
 }
 
 #about article:hover {
-    border: 1.95px solid red;
+    border: 1px solid red;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
