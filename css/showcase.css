@@ -1,0 +1,142 @@
+#showcase{
+    float: left;
+    display: block;
+    margin-top: 0%;
+    width: 100%;
+    background-color: rgb(23, 217, 243);
+    padding-bottom:5%;
+}
+
+#showcase article{
+    color: #fff;
+    margin-top: 10%;
+    float: center;
+    text-align: center;
+    padding-left: -3%;
+}
+
+#showcase article h1{
+    font-size: 40px;
+    padding-bottom: 1%;
+}
+
+#showcase article p{
+    font-size: 19px;
+    line-height: 150%;
+}
+
+section{
+    margin-left: 7%;
+    margin-right: 7%;
+    float: left;
+    display: block;
+    background-color: azure;
+    padding: 4em;
+}
+section h2{
+    padding-top: 1%;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 2%;
+    }
+section p{
+    padding-top: 2%;
+    margin-top: 2%;
+    font-size: 1.3em;
+    margin: 0 0 2em 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    animation: slide 4s infinite linear;
+}
+.gallery figure{
+    margin: 3px;
+    overflow: hidden;
+    position: relative;
+    background-color: blueviolet;
+    transition: background-color .5s;
+}
+
+.gallery figure img{
+    width: calc(100% + 60px);
+    opacity: .7;
+    transform: translate(0, -20px, 0) scale(1.12);
+    transition: all .5s;
+    animation: slide 4s infinite linear;
+    overflow: hidden;
+}
+
+.gallery figure figcaption{
+    position: absolute;
+    padding: 1em 2em;
+    top: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.gallery figure h3{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background: black;
+    display: inline-block;
+    padding: .5em .7em;
+}
+
+.gallery figure .additional{
+    font-family: 'Montserrat';
+}
+
+.gallery figure .additional p{
+    margin-bottom: 20px;
+}
+
+.gallery figure .additional a{
+    display: inline-block;
+    background: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5em;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+}
+
+.gallery figure .additional .expand{
+    bottom: 125px;
+    margin-left: -32px;
+    margin-right: 16px;
+    pointer-events: none;
+}
+
+.gallery figure .additional a:last-child{
+    background: none;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+
+.gallery figure .additional{
+    opacity: 0;
+    transform: scale(1.3);
+    transform: all .5s;
+}
+
+.gallery figure:hover{
+    background: black;
+}
+
+.gallery figure:first-child{
+    margin-left: 0;
+}
+
+
+.gallery figure:hover .additional{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.gallery figure:hover figcaption::before{
+    transform: rotate(-45deg) translate3d(0,0,0);
+}

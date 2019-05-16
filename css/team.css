@@ -1,0 +1,164 @@
+#team{
+    margin-top: 100%;
+    float: left;
+    display: block;
+    margin-top: 15%;
+    width: 100%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+#team article{
+    text-align: center;
+    width: 100%;
+    line-height: 250%;
+    margin-top: 10%;
+}
+
+#team article h1{
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+
+
+#member1{
+    background-color: azure;
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 2%;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    width: 14%;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+#member1 .media{
+    background-color: blueviolet;
+    float: left;
+    display: block;
+    margin-top: 20%;
+}
+#member1 h3{
+    margin-top: 18%;
+    margin-bottom: 3%;
+    width: 100%;
+    float: center;
+    text-align: center;
+    margin-left: -17%;
+}
+
+#member1 p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -19%;
+    margin-bottom: 8%;
+}
+
+#member1:hover{
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#member2{
+    background-color: azure;
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-right: 2%;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    width: 14%;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+#member2:hover{
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#member2 h3{
+    margin-top: 18%;
+    margin-bottom: 3%;
+    width: 100%;
+    float: center;
+    text-align: center;
+    margin-left: -17%;
+}
+
+#member2 p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -19%;
+    margin-bottom: 8%;
+
+}
+#member3{
+    background-color: azure;
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-right: 2%;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    width: 14%;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+#member3:hover{
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#member3 h3{
+    margin-top: 18%;
+    margin-bottom: 3%;
+    width: 100%;
+    float: center;
+    text-align: center;
+    margin-left: -17%;
+}
+
+#member3 p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -19%;
+    margin-bottom: 8%;
+
+}
+#member4{
+    background-color: azure;
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-right: 2%;
+    float: left;
+    display: block;
+    border: 1px solid black;
+    width: 14%;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+#member4:hover{
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#member4 h3{
+    margin-top: 18%;
+    margin-bottom: 3%;
+    width: 100%;
+    float: center;
+    text-align: center;
+    margin-left: -17%;
+}
+
+#member4 p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -19%;
+    margin-bottom: 8%;
+
+}

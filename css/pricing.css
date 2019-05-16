@@ -1,0 +1,257 @@
+#pricing {
+    float: left;
+    display: block;
+    background-color: rgb(23, 217, 243);
+    padding-right: 30%;
+    padding-left: 9%;
+    padding-bottom: 0%;
+}
+
+#pricing article {
+    width: 100%;
+    text-align: center;
+    padding-left: 18%;
+    margin-top: 20%;
+}
+
+#pricing article h1 {
+    font-size: 40px;
+    padding-bottom: 1%;
+}
+
+#pricing article p {
+    font-size: 19px;
+    line-height: 150%;
+}
+
+#price1 {
+    float: left;
+    display: block;
+    border: 1px solid green;
+    border-radius: 6px;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+    transition: 0.6s ease;
+    background-color: rgb(229, 233, 233);
+    padding-bottom: 2%;
+}
+
+#price1:hover {
+    border: 1.9px solid green;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#price1 h2 {
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+#price1 h1 {
+    padding-bottom: 2%;
+    color: green;
+    font-size: 50px;
+}
+
+#price1 button {
+    color: green;
+    border: 1px solid green;
+    background-color: azure;
+}
+
+#price1 a {
+    background-color: rgb(229, 233, 233);
+    text-decoration: none;
+    color: green;
+}
+
+#price1 a:hover {
+    color: black;
+}
+
+#price1 button:hover {
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+#price1 p {
+    line-height: 180%;
+}
+
+#price2 {
+    float: left;
+    display: block;
+    border: 1px solid green;
+    border-radius: 6px;
+    width: 25%;
+    margin-left: 1%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    transition: 0.6s ease;
+    background-color: rgb(229, 233, 233);
+}
+
+#price2:hover {
+    border: 1.9px solid green;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#price2 h2 {
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+#price2 h1 {
+    padding-bottom: 2%;
+    color: green;
+    font-size: 50px;
+}
+
+#price2 button {
+    color: green;
+    border: 1px solid green;
+    background-color: azure;
+}
+
+#price2 a {
+    background-color: rgb(229, 233, 233);
+    text-decoration: none;
+    color: green;
+}
+
+#price2 a:hover {
+    color: black;
+}
+
+#price2 button:hover {
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+#price2 p {
+    line-height: 180%;
+}
+
+#price3 {
+    float: left;
+    display: block;
+    border: 1px solid green;
+    border-radius: 6px;
+    width: 25%;
+    margin-left: 1%;
+    margin-top: 5%;
+    text-align: center;
+    transition: 0.6s ease;
+    background-color: rgb(229, 233, 233);
+    padding-bottom: 2%;
+}
+
+#price3:hover {
+    border: 1.9px solid green;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#price3 h2 {
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+#price3 h1 {
+    padding-bottom: 2%;
+    color: green;
+    font-size: 50px;
+}
+
+#price3 button {
+    color: green;
+    border: 1px solid green;
+    background-color: azure;
+}
+
+#price3 a {
+    background-color: rgb(229, 233, 233);
+    text-decoration: none;
+    color: green;
+}
+
+#price3 a:hover {
+    color: black;
+}
+
+#price3 button:hover {
+    border: 1.9px solid black;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+#price3 p {
+    line-height: 180%;
+}
+
+.video-box {
+    background-color: rgb(23, 217, 243);
+    float: left;
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+
+.video-box img {
+    width: 100%;
+}
+
+.video-box .play-btn {
+    float: center;
+    display: block;
+    background: rgb(243, 239, 239);
+    color: #fff;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 80px;
+    margin-left: 45%;
+    margin-top: -30%;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 20%;
+}
+
+.video-box .play-btn img {
+    margin-left: 8%;
+}
+
+.video-box .play-btn::before,
+.video-box .play-btn::after {
+    content: '';
+    position: absolute;
+    border: 2px solid rgb(241, 227, 227);
+    border-radius: 80px;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.video-box .play-btn::after {
+    animation-delay: 0.5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(.5);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
