@@ -1,4 +1,4 @@
-#contact{
+#contact {
     float: left;
     display: block;
     margin-top: 15%;
@@ -7,100 +7,108 @@
     margin-bottom: 5%;
 }
 
-#contact article{
+#contact article {
     text-align: center;
     width: 100%;
     line-height: 250%;
 }
 
-#contact article h1{
+#contact article h1 {
     font-size: 40px;
     margin-bottom: 1%;
 }
 
-#contact article p{
+#contact article p {
     font-size: 19px;
     line-height: 150%;
 }
 
-#contactForm{
+#contactForm {
     position: relative;
     width: 45%;
     float: left;
     display: table-cell;
-    padding-left: 15%;
+    padding-left: 10%;
     text-align: center;
 }
 
-#contactForm .row{
+#contactForm .row {
     width: 10%;
 }
-#contactForm .col-md1{
+
+#contactForm .col-md1 {
     position: relative;
     border-radius: 5px;
     width: 20%;
 }
-#contactForm .col-md2{
-    position: relative;
-    margin-top: -139%;
-    margin-left: 400%;
-    width: 20%;
-}
-#contactForm .col-md3{
-    width: 20%;
-    position: relative;
-}
 
-#contactForm .col-md4{
+#contactForm .col-md2 {
     position: relative;
     margin-top: -139%;
     margin-left: 400%;
     width: 20%;
 }
 
-#contactForm .col-md4 textarea{
+#contactForm .col-md3 {
+    width: 20%;
+    position: relative;
+}
+
+#contactForm .col-md4 {
+    position: relative;
+    margin-top: -139%;
+    margin-left: 400%;
+    width: 20%;
+}
+
+#contactForm .col-md4 textarea {
     width: 400%;
 }
 
-#contactForm button{
+#contactForm button {
     position: relative;
     background-color: rgb(36, 248, 195);
     border: 1px solid rgb(36, 248, 195);
     color: white;
 }
-#contactForm button:hover{
+
+#contactForm button:hover {
     border: 1.9px solid white;
-    box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 #contactForm .form-group {
     margin-bottom: 30px;
     border-radius: 5px;
 }
-  
-#contactForm input[type=text], #contactForm input[type=email] {
+
+#contactForm input[type=text],
+#contactForm input[type=email] {
     position: relative;
     min-height: 52px;
     padding: 0px 0 0 28px;
     font-size: 16px;
-    color: #5e629c; }
-  
+    color: #5e629c;
+}
+
 #contactForm textarea {
     text-align: left;
     position: relative;
     padding: 20px 0 0 20px;
     font-size: 16px;
     color: #5e629c;
-    width: 690%; 
+    width: 690%;
     height: 120px;
 }
-  
+
 #contactForm .form-control:focus {
     position: relative;
     border: 1px solid black;
     outline: none;
     box-shadow: none;
-    background: #e5fff3; }
+    background: #e5fff3;
+}
 
-#contacted img{
+#contacted img {
     margin-left: 0%;
 }
