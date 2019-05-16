@@ -29,7 +29,7 @@
 
 #service2 {
     background-color: rgb(23, 217, 243);
-    width: 42%;
+    width: 40%;
     padding-top: 0%;
     float: left;
     display: block;
@@ -39,12 +39,13 @@
 }
 
 #service2 article {
+    position: relative;
     float: right;
     text-align: left;
     border: 1px solid aqua;
     border-radius: 4px;
     background-color: #fff;
-    padding-bottom: 0.6%;
+    padding-bottom: 1%;
     transition: 0.6s ease;
     margin-top: 1%;
     margin-right: 1%;
@@ -72,7 +73,7 @@
 #service2 article:hover {
     z-index: 3;
     image-rendering: pixelated;
-    border: 1.99px solid rgb(71, 66, 66);
+    border: 1px solid rgb(71, 66, 66);
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -82,7 +83,7 @@
 
 #service3 {
     background-color: rgb(23, 217, 243);
-    width: 42%;
+    width: 40%;
     float: left;
     display: block;
     padding-right: 8%;
@@ -100,11 +101,12 @@
 }
 
 #service3 article {
+    position: relative;
     text-align: left;
     border: 1px solid rgb(23, 217, 243);
     border-radius: 4px;
     background-color: #fff;
-    padding-bottom: 0.5%;
+    padding-bottom: 0.9%;
     margin-top: 1%;
     transition: 0.6s ease;
 }
@@ -122,6 +124,6 @@
 #service3 article:hover {
     z-index: 3;
     image-rendering: pixelated;
-    border: 1.99px solid rgb(71, 66, 66);
+    border: 1px solid rgb(71, 66, 66);
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }

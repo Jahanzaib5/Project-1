@@ -4,7 +4,7 @@
     display: block;
     margin-top: 15%;
     width: 100%;
-    padding-top: 3%;
+    padding-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -32,8 +32,8 @@
     display: block;
     border: 1px solid black;
     width: 14%;
-    border-radius: 5px;
     transition: 0.6s ease;
+    position: relative;
 }
 
 #member1 .media {
@@ -57,11 +57,11 @@
     font-size: 15px;
     text-align: center;
     margin-left: -19%;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 
 #member1:hover {
-    border: 1.9px solid black;
+    border: 1.5px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -74,12 +74,12 @@
     display: block;
     border: 1px solid black;
     width: 14%;
-    border-radius: 5px;
     transition: 0.6s ease;
+    position: relative;
 }
 
 #member2:hover {
-    border: 1.9px solid black;
+    border: 1.5px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -97,7 +97,7 @@
     font-size: 15px;
     text-align: center;
     margin-left: -19%;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 
 #member3 {
@@ -109,12 +109,12 @@
     display: block;
     border: 1px solid black;
     width: 14%;
-    border-radius: 5px;
     transition: 0.6s ease;
+    position: relative;
 }
 
 #member3:hover {
-    border: 1.9px solid black;
+    border: 1.5px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -132,7 +132,7 @@
     font-size: 15px;
     text-align: center;
     margin-left: -19%;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 
 #member4 {
@@ -144,12 +144,12 @@
     display: block;
     border: 1px solid black;
     width: 14%;
-    border-radius: 5px;
     transition: 0.6s ease;
+    position: relative;
 }
 
 #member4:hover {
-    border: 1.9px solid black;
+    border: 1.5px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -167,5 +167,5 @@
     font-size: 15px;
     text-align: center;
     margin-left: -19%;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }

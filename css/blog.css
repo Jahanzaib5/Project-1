@@ -9,6 +9,7 @@
 }
 
 #blog article {
+    position: relative;
     color: white;
     text-align: center;
     width: 100%;
@@ -55,7 +56,8 @@
 }
 
 #blog1:hover {
-    border: 1.9px solid black;
+    position: relative;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     margin-top: -0.5%;
 }
@@ -96,6 +98,7 @@
 }
 
 #blog2 {
+    position: relative;
     float: left;
     display: block;
     border: 1px solid black;
@@ -105,7 +108,8 @@
 }
 
 #blog2:hover {
-    border: 1.9px solid black;
+    position: relative;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     margin-top: -0.5%;
 }
@@ -160,6 +164,7 @@
 }
 
 #blog3 {
+    position: relative;
     float: left;
     display: block;
     border: 1px solid black;
@@ -169,7 +174,8 @@
 }
 
 #blog3:hover {
-    border: 1.9px solid black;
+    position: relative;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     margin-top: -0.5%;
 }

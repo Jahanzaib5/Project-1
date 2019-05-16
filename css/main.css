@@ -16,7 +16,7 @@ header {
     top: -4px;
     padding-bottom: 0%;
     display: block;
-    z-index: 5;
+    z-index: 10;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
     font-size: 22px;
     border: 1px solid rgb(88, 92, 114);
     border-radius: 10px;
-    z-index: 3;
+    z-index: 10;
 }
 
 header ul {

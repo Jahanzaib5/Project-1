@@ -5,14 +5,16 @@
     padding-right: 30%;
     padding-left: 9%;
     padding-bottom: 2%;
+    margin-top: -5%;
 }
 
 #pricing article {
     color: white;
     width: 100%;
     text-align: center;
-    padding-left: 18%;
+    margin-left: 18%;
     margin-top: 15%;
+    position: relative;
 }
 
 #pricing article h1 {
@@ -255,4 +257,121 @@
     100% {
         transform: scale(1.5);
     }
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.video-box .testimonial-area {
+    z-index: 3;
+    position: relative;
+    width: 70%;
+    z-index: 4;
+    top: 260px;
+    margin-bottom: 20%;
+    padding-top: -20%;
+    margin-left: 15%;
+    float: center;
+    text-align: center;
+    padding-bottom: -4%;
+    margin-top: -30%;
+}
+
+.video-box #client-testimonial {
+    z-index: 3;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: -20%;
+    margin-bottom: -4%;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+    box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+}
+
+.video-box #client-testimonial .content-inner p {
+    margin-top: 5%;
+    font-size: 24px;
+    color: #5e629c;
+    font-style: italic;
+    line-height: 150%;
+}
+
+.video-box .client-thumb {
+    position: relative;
+    width: 10%;
+    float: center;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.video-box .client-thumb img {
+    float: center;
+}
+
+.video-box #client-testimonial .author-info {
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+
+.video-box #client-testimonial .author-info h5 {
+    color: #151948;
+    font-size: 18px;
+}
+
+.video-box #client-testimonial h5 span {
+    font-size: 16px;
+    color: #5e629c;
+    font-style: italic;
+}
+
+.video-box #client-testimonial .owl-controls .owl-buttons div.owl-prev {
+    color: #3ecf8e;
+    display: inline-block;
+    zoom: 1;
+    margin: 5px;
+    font-size: 16px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 60px;
+    background: #fff;
+    filter: Alpha(Opacity=50);
+    position: absolute;
+    left: -4px;
+    top: 48%;
+    opacity: 1;
+    border: 1px solid #ccc;
+    width: 45px;
+    height: 28px;
+    padding: 8px 0px;
+}
+
+.video-box #client-testimonial .owl-controls .owl-buttons div.owl-next {
+    color: #3ecf8e;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 20px;
+    font-size: 16px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 60px;
+    background: #fff;
+    filter: Alpha(Opacity=50);
+    position: absolute;
+    right: -15px;
+    top: 48%;
+    opacity: 1;
+    border: 1px solid #ccc;
+    width: 45px;
+    height: 28px;
+    padding: 8px 0px;
+    z-index: 4;
+}
+
+.video-box #client-testimonial .owl-controls .owl-buttons div.owl-prev:hover,
+.video-box #client-testimonial .owl-controls .owl-buttons div.owl-next:hover {
+    color: #fff;
+    position: relative;
+    background: #ff1606;
+    border-color: #ff2103;
 }
