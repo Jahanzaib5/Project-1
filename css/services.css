@@ -35,6 +35,7 @@
     display: block;
     padding-left: 8%;
     padding-bottom: 8%;
+    position: relative;
 }
 
 #service2 article {
@@ -86,6 +87,7 @@
     display: block;
     padding-right: 8%;
     padding-bottom: 8%;
+    position: relative;
 }
 
 #service3 img {
