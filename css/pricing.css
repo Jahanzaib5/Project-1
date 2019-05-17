@@ -368,14 +368,6 @@
     z-index: 4;
 }
 
-.video-box #client-testimonial .owl-controls .owl-buttons div.owl-prev:hover,
-.video-box #client-testimonial .owl-controls .owl-buttons div.owl-next:hover {
-    color: #fff;
-    position: relative;
-    background: #ff1606;
-    border-color: #ff2103;
-}
-
 @keyframes pulse-border {
     0% {
         transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
