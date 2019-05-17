@@ -326,15 +326,10 @@
 
 .video-box #client-testimonial .owl-controls .owl-buttons div.owl-prev {
     color: #3ecf8e;
-    display: inline-block;
-    zoom: 1;
     margin: 5px;
     font-size: 16px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 60px;
     background: #fff;
-    filter: Alpha(Opacity=50);
     position: absolute;
     left: -4px;
     top: 48%;
@@ -347,34 +342,16 @@
 
 .video-box #client-testimonial .owl-controls .owl-buttons div.owl-next {
     color: #3ecf8e;
-    display: inline-block;
-    zoom: 1;
-    display: inline;
-    margin: 20px;
+    margin: 5px;
     font-size: 16px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 60px;
     background: #fff;
-    filter: Alpha(Opacity=50);
     position: absolute;
-    right: -15px;
+    right: -4px;
     top: 48%;
     opacity: 1;
     border: 1px solid #ccc;
     width: 45px;
     height: 28px;
     padding: 8px 0px;
-    z-index: 4;
-}
-
-@keyframes pulse-border {
-    0% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-        opacity: 0;
-    }
 }
