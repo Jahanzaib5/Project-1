@@ -28,6 +28,7 @@
 }
 
 #price1 {
+    position: relative;
     float: left;
     display: block;
     border: 1px solid green;
@@ -42,7 +43,8 @@
 }
 
 #price1:hover {
-    border: 1.9px solid green;
+    position: relative;
+    border: 1px solid green;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -74,7 +76,7 @@
 }
 
 #price1 button:hover {
-    border: 1.9px solid black;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     color: black;
 }
@@ -84,6 +86,7 @@
 }
 
 #price2 {
+    position: relative;
     float: left;
     display: block;
     border: 1px solid green;
@@ -98,7 +101,8 @@
 }
 
 #price2:hover {
-    border: 1.9px solid green;
+    position: relative;
+    border: 1px solid green;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -130,7 +134,7 @@
 }
 
 #price2 button:hover {
-    border: 1.9px solid black;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     color: black;
 }
@@ -140,6 +144,7 @@
 }
 
 #price3 {
+    position: relative;
     float: left;
     display: block;
     border: 1px solid green;
@@ -154,7 +159,8 @@
 }
 
 #price3:hover {
-    border: 1.9px solid green;
+    position: relative;
+    border: 1px solid green;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -186,7 +192,7 @@
 }
 
 #price3 button:hover {
-    border: 1.9px solid black;
+    border: 1px solid black;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     color: black;
 }
