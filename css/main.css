@@ -76,7 +76,7 @@ header ul li.highlighted a {
     background-color: rgb(23, 217, 243);
     color: #fff;
     text-decoration: none;
-    transition: 0.2s ease;
+    transition: 0.3s ease;
 }
 
 header ul li.highlighted a:hover {
