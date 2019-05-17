@@ -128,12 +128,14 @@ header .main {
 }
 
 .btn1 {
+    width: 40%;
     position: relative;
     background-color: rgb(62, 199, 62);
     color: #fff;
 }
 
 .btn2 {
+    width: 40%;
     position: relative;
     background-color: #fff;
     color: rgb(62, 199, 62);
