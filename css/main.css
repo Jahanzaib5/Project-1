@@ -111,6 +111,7 @@ header .main {
 }
 
 .container {
+    position: relative;
     padding-top: 10%;
     text-align: left;
 }
@@ -127,23 +128,27 @@ header .main {
 }
 
 .btn1 {
+    position: relative;
     background-color: rgb(62, 199, 62);
     color: #fff;
 }
 
 .btn2 {
+    position: relative;
     background-color: #fff;
     color: rgb(62, 199, 62);
 }
 
 .btn1:hover {
+    position: relative;
     background-color: rgb(23, 217, 243);
-    border: 1.6px solid #fff;
+    border: 1px solid #fff;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn2:hover {
-    border: 1.6px solid #fff;
+    position: relative;
+    border: 1px solid #fff;
     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
