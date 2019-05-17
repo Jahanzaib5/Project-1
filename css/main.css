@@ -117,8 +117,8 @@ header .main {
 }
 
 .btn {
+    width: 42%;
     border: 1px solid rgb(14, 153, 245);
-    background: none;
     padding: 10px 20px;
     font-size: 20px;
     cursor: pointer;
