@@ -300,6 +300,7 @@ header .main {
     background-color: #3ecf8e;
     color: #fff;
     margin-right: 7%;
+    border: 1px solid #5533ff;
 }
 
 .btn2 {
@@ -307,6 +308,7 @@ header .main {
     position: relative;
     background-color: #fff;
     color: #3ecf8e;
+    border: 1px solid #5533ff;
 }
 
 .btn1:hover {
