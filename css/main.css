@@ -365,7 +365,7 @@ header .main {
 #about article h3 {
     padding-bottom: 5%;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #about article p {
@@ -496,7 +496,7 @@ header .main {
     font-family: "Rubik", sans-serif;
     font-size: 35px;
     padding-bottom: 1%;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #service article p {
@@ -728,7 +728,7 @@ header .main {
 #showcase article h2 {
     font-family: "Poppins", sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 1%;
     color: #fff;
 }
@@ -933,7 +933,7 @@ section p {
 #pricing article h2 {
     font-family: "Rubik", sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #pricing article p {
@@ -967,7 +967,7 @@ section p {
 
 #price1 h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 10%;
     padding-bottom: 4%;
 }
@@ -976,6 +976,7 @@ section p {
     padding-bottom: 2%;
     color: #3ecf8e;
     font-size: 50px;
+    font-weight: 400;
 }
 
 #price1 button {
@@ -1037,7 +1038,7 @@ section p {
 
 #price2 h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 10%;
     padding-bottom: 4%;
 }
@@ -1045,7 +1046,8 @@ section p {
 #price2 h1 {
     padding-bottom: 2%;
     color: #3ecf8e;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 #price2 button {
@@ -1104,7 +1106,7 @@ section p {
 
 #price3 h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     padding-top: 10%;
     padding-bottom: 4%;
 }
@@ -1113,6 +1115,7 @@ section p {
     padding-bottom: 2%;
     color: #3ecf8e;
     font-size: 50px;
+    font-weight: 400;
 }
 
 #price3 button {
@@ -1344,8 +1347,8 @@ section p {
 }
 
 #team article h2 {
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 500;
     margin-bottom: 1%;
 }
 
@@ -1792,8 +1795,7 @@ section p {
 
 #blog article h2 {
     font-size: 35px;
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 500;
     margin-bottom: 1%;
 }
 
@@ -2073,7 +2075,7 @@ section p {
 #contact article h2 {
     font-family: "Poppins", sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1%;
 }
 
