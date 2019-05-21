@@ -25,7 +25,6 @@ header {
 
 .apply {
     position: relative;
-    border: 1px solid red;
     z-index: -9999;
     margin-top: 0.5%;
 }
@@ -43,7 +42,6 @@ header {
     -webkit-transform-origin: 0;
     transform-origin: 0;
     z-index: 999;
-    border: 1px solid yellow;
     padding-top: 53%;
 }
 
@@ -137,7 +135,6 @@ header .main ul li a {
     padding: 10px 11px;
     border-radius: 3px;
     transition: 0.6s ease;
-    font-weight: bold;
     margin-left: 14%;
 }
 
@@ -147,7 +144,7 @@ a:active {
 }
 
 header .main ul li.highlighted a {
-    background-color: rgb(99, 223, 240);
+    background-color: #7fc9fb;
     color: #fff;
     text-decoration: none;
     transition: 0.3s ease;
@@ -220,8 +217,21 @@ header .main {
     padding-left: 9%;
     padding-right: 5%;
     padding-bottom: 0%;
-    border: 1px solid red;
     z-index: 20;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.sticky .main {
+    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+    position: fixed;
+    top: 0;
+    width: 86%;
+    padding-right: 5%;
+    padding-left: 9%;
+    margin-top: -0.5%;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
 }
 
 #hello {
@@ -263,6 +273,7 @@ header .main {
 
 .btn {
     font-size: 14px;
+    font-weight: 500;
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
     width: 45%;
@@ -276,6 +287,7 @@ header .main {
 }
 
 .btn:hover {
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
 }
 
@@ -444,6 +456,7 @@ header .main {
     margin-left: 2%;
     padding: 13px 1px;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .btn3:hover {
@@ -964,8 +977,8 @@ section p {
     color: #3ecf8e;
     border: 1px solid #3ecf8e;
     background-color: azure;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #price1 a {
@@ -1034,8 +1047,8 @@ section p {
     color: #fff;
     border: 1px solid #3ecf8e;
     background-color: #3ecf8e;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #price2 a {
@@ -1101,8 +1114,8 @@ section p {
     color: #3ecf8e;
     border: 1px solid #3ecf8e;
     background-color: azure;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #price3 a {
@@ -1361,12 +1374,13 @@ section p {
 
 #member1 h5 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 18%;
     margin-bottom: 3%;
     width: 100%;
     float: center;
     text-align: center;
+    color: #151948;
 }
 
 #member1 p {
@@ -1470,12 +1484,13 @@ section p {
 
 #member2 h5 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 18%;
     margin-bottom: 3%;
     width: 100%;
     float: center;
     text-align: center;
+    color: #151948;
 }
 
 #member2 p {
@@ -1567,12 +1582,13 @@ section p {
 
 #member3 h5 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 18%;
     margin-bottom: 3%;
     width: 100%;
     float: center;
     text-align: center;
+    color: #151948;
 }
 
 #member3 p {
@@ -1664,12 +1680,13 @@ section p {
 
 #member4 h5 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 18%;
     margin-bottom: 3%;
     width: 100%;
     float: center;
     text-align: center;
+    color: #151948;
 }
 
 #member4 p {
@@ -1800,7 +1817,7 @@ section p {
 
 #blog1 h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
     text-decoration: none;
     width: 80%;
@@ -1893,7 +1910,7 @@ section p {
 
 #blog2 h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
     text-decoration: none;
     width: 80%;
@@ -1974,7 +1991,7 @@ section p {
 
 #blog3 h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
     width: 80%;
     text-align: left;
@@ -2202,6 +2219,7 @@ section p {
 
 #first-list h2 {
     padding-bottom: 20%;
+    font-weight: 400;
 }
 
 #first-list article {
@@ -2232,6 +2250,7 @@ section p {
 
 #second-list h2 {
     padding-bottom: 18%;
+    font-weight: 400;
 }
 
 #second-list article {
@@ -2263,6 +2282,7 @@ section p {
 
 #third-list h2 {
     padding-bottom: 18%;
+    font-weight: 400;
 }
 
 #third-list article {
@@ -2300,7 +2320,7 @@ section p {
     width: 20%;
     margin-left: 0;
     margin-left: 65%;
-    margin-top: -19.5%;
+    margin-top: -17%;
 }
 
 .widget article {
@@ -2310,6 +2330,7 @@ section p {
 
 .widget article h2 {
     padding-bottom: 12%;
+    font-weight: 400;
 }
 
 .widget .subscribe-area {
@@ -2353,4 +2374,5 @@ section p {
 
 #end h3 {
     color: #3ecf8e;
+    font-weight: 400;
 }
