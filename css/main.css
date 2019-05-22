@@ -2364,7 +2364,7 @@ section p {
     border: 1px solid white;
     border-radius: 5px;
     right: 0;
-    width: 60px;
+    width: 40px;
     height: 26px;
     color: #fff;
     top: 0;
@@ -2374,6 +2374,7 @@ section p {
     font-size: 18px;
     border-radius: 0px 4px 4px 0px;
     padding-left: -20%;
+    text-align: center;
 }
 
 #end a {
