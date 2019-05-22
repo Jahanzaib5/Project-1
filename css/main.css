@@ -135,7 +135,7 @@ header .main ul li a {
     padding: 10px 13px;
     border-radius: 3px;
     transition: 0.6s ease;
-    margin-left: 15%;
+    margin-left: 0%;
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -168,16 +168,16 @@ header .main ul li.aam::after {
     height: 2px;
     transition: width .3s;
     background: #fff;
-    margin-left: 31%;
+    margin-left: 19%;
     margin-top: 10%;
 }
 
 header .main ul li.aam:hover::after {
     text-decoration: none;
     position: relative;
-    width: 69%;
+    width: 60%;
     transition: width .3s;
-    margin-left: 33%;
+    margin-left: 19%;
 }
 
 header .main ul li.active::after {
@@ -189,7 +189,7 @@ header .main ul li.active::after {
     height: 2px;
     transition: width .3s;
     background: #fff;
-    margin-left: 33%;
+    margin-left: 19%;
 }
 
 header .main ul li.active:hover::after {
@@ -197,7 +197,7 @@ header .main ul li.active:hover::after {
     position: relative;
     width: 60%;
     transition: width .3s;
-    margin-left: 33%;
+    margin-left: 19%;
 }
 
 header .main .logo {
