@@ -132,12 +132,13 @@ header .main ul li a {
     position: relative;
     text-decoration: none;
     color: #fff;
-    padding: 10px 11px;
+    padding: 10px 13px;
     border-radius: 3px;
     transition: 0.6s ease;
-    margin-left: 14%;
+    margin-left: 15%;
     font-size: 16px;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 
 header .main ul li a:hover,
@@ -174,7 +175,7 @@ header .main ul li.aam::after {
 header .main ul li.aam:hover::after {
     text-decoration: none;
     position: relative;
-    width: 60%;
+    width: 69%;
     transition: width .3s;
     margin-left: 33%;
 }
@@ -254,8 +255,8 @@ header .main {
 #hello #main-content h1 {
     font-family: "Rubik", sans-serif;
     color: #fff;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 38px;
+    font-weight: 500;
     line-height: 150%;
 }
 
@@ -264,6 +265,7 @@ header .main {
     color: #fff;
     font-size: 18px;
     line-height: 150%;
+    padding-bottom: 3%;
 }
 
 .container {
@@ -284,7 +286,7 @@ header .main {
     cursor: pointer;
     margin: 1px;
     transition: 0.6s ease;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: -5%;
 }
 
